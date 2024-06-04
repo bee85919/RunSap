@@ -29,8 +29,11 @@ SAP GUI를 실행하기 위해서는 Oracle Vm VirtualBox의 Virtual Machine을 
 
 RunSap.ps1을 열어보면 변수 설정하는 부분이 있습니다. RunSap.bat 파일을 실행하기 전에 해당 변수들의 값이 올바르게 할당되어 있는지 확인해주셔야 합니다. 변수들의 목록은 다음과 같습니다. 
 
- -  vmFolder : Oracle Vm VirtualBox의 Virtual Box 폴더 경로
- -  vmName : Oracle Vm VirtualBox의 Virtual Machine 이름
- -  sapGui : SAP GUI 실행 파일 경로
- -  vmUser : npladm
- -  vmPassword : npladm 비밀 번호
+ -  vmFolder    : Oracle Vm VirtualBox의 Virtual Box 폴더 경로
+ -  vmName      : Oracle Vm VirtualBox의 Virtual Machine 이름
+ -  sapGui      : SAP GUI 실행 파일 경로
+ -  vmUser      : npladm
+ -  vmPassword  : npladm 비밀 번호
+ -  plinkPath   : Plink 실행 파일 경로
+ -  sshPort     : SSH 포트
+ -  vmHost      : 가상 머신 호스트 (IP 주소 또는 호스트 이름)
