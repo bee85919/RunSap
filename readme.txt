@@ -1,6 +1,10 @@
 ### 실행 환경
-Windows
-[AS ABAP 7.52 Developer Edition](https://www.notion.so/bee-tion/ABAP-1e642d7d7a83477fb25504814c1a49d3)
+
+  -  Windows
+  -  [AS ABAP 7.52 Developer Edition](https://www.notion.so/bee-tion/ABAP-1e642d7d7a83477fb25504814c1a49d3)
+  -  PuTTY
+      -  Plink
+
 
 
 ### 개요
@@ -8,9 +12,17 @@ Windows
 SAP GUI를 실행하기 위해서는 Oracle Vm VirtualBox의 Virtual Machine을 실행하고, npladm으로 로그인 한 뒤 startsap all 명령어를 실행하고, SAP GUI 실행파일을 실행해야 합니다. RunSap.ps1과 RunSap.bat은 이 과정을 도와주는 파일들입니다.
 
 
+
 ### 사용 방법
 
 파일들을 다운로드 받아 같은 폴더에 압축을 풀고, RunSap.bat 파일의 바로가기 파일을 실행하면 일련의 과정들이 자동 실행되어 SAP GUI가 실행됩니다. 
+
+
+
+### 주의 사항
+-- Keyboard-interactive authentication prompts from server: --
+위의 메시지가 뜰 때 아무 키를 입력하여 계속 진행해야 한다.
+
 
 
 ### 준비
