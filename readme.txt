@@ -10,7 +10,7 @@ SAP GUI를 실행하기 위해서는 Oracle Vm VirtualBox의 Virtual Machine을 
 
 ### 사용 방법
 
-RunSap.bat 파일의 바로가기 파일을 실행하면 일련의 과정들이 자동 실행되어 SAP GUI가 실행됩니다. 
+파일들을 다운로드 받아 같은 폴더에 압축을 풀고, RunSap.bat 파일의 바로가기 파일을 실행하면 일련의 과정들이 자동 실행되어 SAP GUI가 실행됩니다. 
 
 
 ### 준비
