@@ -20,8 +20,8 @@ SAP GUI를 실행하기 위해서는 Oracle Vm VirtualBox의 Virtual Machine을 
 
 
 ### 주의 사항
--- Keyboard-interactive authentication prompts from server: --
-위의 메시지가 뜰 때 아무 키를 입력하여 계속 진행해야 한다.
+ -  바로가기가 실행되지 않는 경우 scripts/Windows/RunSap.bat 파일을 실행하거나, 바로가기의 경로를 수정하여 사용해야 합니다.
+ -  -- Keyboard-interactive authentication prompts from server: -- : 이 메시지가 뜰 때 아무 키를 입력하여 계속 진행해야 합니다.
 
 
 
