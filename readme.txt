@@ -1,3 +1,8 @@
+### 실행 환경
+Windows
+[AS ABAP 7.52 Developer Edition](https://www.notion.so/bee-tion/ABAP-1e642d7d7a83477fb25504814c1a49d3)
+
+
 ### 개요
 
 SAP GUI를 실행하기 위해서는 Oracle Vm VirtualBox의 Virtual Machine을 실행하고, npladm으로 로그인 한 뒤 startsap all 명령어를 실행하고, SAP GUI 실행파일을 실행해야 합니다. RunSap.ps1과 RunSap.bat은 이 과정을 도와주는 파일들입니다.
