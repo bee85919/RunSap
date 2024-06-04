@@ -1,5 +1,7 @@
+:: RunSap.bat
+
+
 @echo off
-:: RunSap.ps1 실행을 위한 배치 스크립트
 
 
 set scriptPath="%~dp0RunSap.ps1"
@@ -13,7 +15,7 @@ echo RunSap.ps1 Path : %scriptPath%
 openfiles >nul 2>&1
 if %errorlevel% neq 0 (
     :: 관리자 권한이 아닐 때 관리자 권한으로 재시작
-    echo Administrator privileges are required. Restarting with administrator privileges...
+    echo Administrator privileges are required. Restart with administrator privileges...
     powershell.exe -Command "Start-Process cmd -ArgumentList '/c %~dp0%~nx0' -Verb RunAs"
     exit /b
 )
